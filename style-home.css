@@ -1,0 +1,88 @@
+/* cores hexadecimal (0123456789ABCDEF) 
+0 = PRETO - #000000
+F = BRANCO - #FFFFFF
+cores numericos RGB - RED, GREEN, BLUE (0123...255)
+0 = PRETO - rgb(0,0,0)
+255 = BRANCO - rgb(255,255,255)
+Tbm pode usar os nomes das cores
+ex: red
+*/
+
+/* 
+   background: #CCCCCC - cor de fundo
+   color: blue - cor do texto 
+   height: 100px - (altura) define espaço/altura daquele elemento em pixels
+   width: 100% - (largura) define espaço/largura daquele elemento em porcentagem
+   border: 10px solid #000000 - borda com 10 pixels sólida preta
+   padding: 20px - espacamento interno geral em 20 pixels
+   padding-top: 20px - espacamento interno só na parte de cima
+   margin: 40px - espacamento externo geral em 40 pixels
+   margin-left: 40px - espacamento externo só na esquerda de 40 pixels  
+   text-align: center - alinhamento do texto centro
+   font-size: 20px - tamanho da fonte em pixels
+   display: inline-block - definição da linha ocupa o tamanho do conteudo do texto e deixa o resto livre 
+   display: inline - deixa todo conteudo em uma linha
+   vertical-align: top - alinha a propriedade em cima
+   font-weight: bold; - fonte em negrito
+   text-decoration: none; - nenhuma decoração no texto
+   box-sizing: border-box; - faz o css calcular os espaçamentos internos e externos sozinhos
+   border: 2px solid black; - definição de borda (tamanho, tipo, cor)
+   */
+
+
+/* classe - serve para itens repetidos*/
+.titulo-principal {
+    padding-left: 20px;
+}
+
+/* identificador - serve para itens únicos */
+#banner {
+    width: 100%;
+    height: 500px;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+/* tag */
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+/* elemento dentro de outro - css */
+em strong {
+    color: #FF0000;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens {
+    font-style: italic; /* definindo fonte itálica para toda a classe itens */
+}
+
+.imagembeneficios {
+    width: 50%;
+}
+
+
+
